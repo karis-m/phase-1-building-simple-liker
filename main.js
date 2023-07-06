@@ -5,6 +5,13 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
 
 
+  const like = document.querySelector('.like-glyph')
+  like.textContent = EMPTY_HEART
+  like.addEventListener('click', () => {
+  like.textContent = FULL_HEART
+  })
+   
+
 
 
 //------------------------------------------------------------------------------
